@@ -3,7 +3,7 @@ object galvan {
 	var sueldo = 15000
 	var deuda = 0
 	var dinero= 0
-	
+	var i = 0
 	
 	method sueldo() { return sueldo }
 	method sueldo(nuevoValor) { sueldo = nuevoValor }
@@ -13,11 +13,27 @@ object galvan {
 		
 		
 		
-		if ( deuda == 0) 
-		{dinero +=  sueldo}
-		else
-		{deuda -= sueldo}
+		
+		
+		
+//		if ( deuda > 0) 
+//		
+//		{ i = deuda - sueldo}
+//			
+//		else if (i > 0 ) 
+//		
+//		{deuda += i}
+//		
+//		else if (i < 0)
+//		
+//		{dinero += (-deuda)}		
+//		
+//		else 
+//		
+//		{dinero += sueldo}
 	}
+
+	
  	
 	method gastar (cuanto) {
 		
